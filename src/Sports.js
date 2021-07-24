@@ -19,7 +19,7 @@ function Sports() {
         </div>
         <div className="mvp-container">
             <div className="mvp-pic">
-                <img src="Sacchit_mvp.jpeg" />
+                <img src="Sacchit_mvp.jpeg" alt="mvp" />
             </div>
             <div className="mvp-info">
                 <p> Honoured as the Most Valuable Tennis Player in the school by the Principal, the Headmistress, and 
@@ -35,7 +35,7 @@ function Sports() {
                 </p>
             </div>
         <div className="soty-pic">
-            <img src="Sacchit_SOTY.jpeg" />
+            <img src="Sacchit_SOTY.jpeg" alt="soty" />
         </div>
         </div>
         </div>
