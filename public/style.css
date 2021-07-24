@@ -1,0 +1,137 @@
+.body {
+    background-color: whitesmoke;    
+}
+
+/* Introduction.css */
+
+
+.container {
+    display: flex;
+}
+.introduction {
+    width: 90vw;
+    margin-left: 12vw;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(Tennis_Ball.png);
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    background-position: 70px 200px;
+
+}
+.introduction h1{
+    font-family:'Scope One',sans-serif;
+    font-size: 3vw;
+    margin-top: 20vw;
+    font-weight: 300;
+    color: #1a1b1f;
+    margin-bottom: 15px;
+    font-size: 44px;
+    line-height: 62px;
+}
+.introduction p {
+    margin-top: 20px;
+    font-size: 18px;
+    width: 47vw; 
+    font-family: 'Scope One',sans-serif;
+    color:#686565; 
+    font-weight: 400; 
+    line-height: 28px; 
+}
+.picture img{
+    margin-top: 9vw;
+    margin-right: 10vw;
+    width: 30vw;
+    background-color: whitesmoke;
+    height: 45vw;
+}
+
+
+/* Projects.css */
+.project-container {
+    background-color: rgb(245, 229, 7, 0.1);
+}
+
+.project-info h1{
+    font-family:'Scope One',sans-serif;
+    font-size: 3vw;
+    margin-left: 12vw;
+    font-weight: 300;
+    color: #1a1b1f;
+    margin-bottom: 15px;
+    font-size: 44px;
+    line-height: 62px;
+}
+.project-info a {
+    font-size: 18px;
+    width: 47vw; 
+    font-family: 'Scope One',sans-serif;
+    color:#686565; 
+    line-height: 28px; 
+    margin-left: 12vw;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+}
+
+.project-info p {
+    margin-left: 12vw;
+    width: 70vw;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Sports.css */
+.sports-bg {
+    background-color: rgba(245, 245, 220, 0.425);
+}
+
+.sports-header{
+    font-family:'Scope One',sans-serif;
+    font-size: 3vw;
+    margin-left: 12vw;
+    font-weight: 300;
+    color: #1a1b1f;
+    margin-bottom: 15px;
+    font-size: 44px;
+    line-height: 62px;
+}
+.mvp-container {
+    display: flex;
+}
+
+.mvp-info p {
+    margin-right: 10vw; 
+    width: 42vw;
+    line-height: 28px;
+    margin-top: 10vw;
+    font-size: 18px; 
+    font-family: 'Scope One',sans-serif;
+    color:#686565; 
+    font-weight: 400; 
+    margin-left: 2vw;
+}
+
+.mvp-pic img {
+    margin-left: 12vw;
+    width: 35vw;
+    height: 22vw;
+} 
+
+.soty-container {
+    display: flex;
+}
+.soty-info p {
+    margin-left: 12vw;
+    width: 41.5vw;
+    line-height: 28px;
+    margin-top: 10vw;
+    font-size: 18px; 
+    font-family: 'Scope One',sans-serif;
+    color:#686565; 
+    font-weight: 400; 
+}
+
+.soty-pic img {
+    margin-right: 10vw;
+    width: 37vw;
+    height: 25vw;
+} 
