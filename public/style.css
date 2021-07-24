@@ -9,7 +9,6 @@
     display: flex;
 }
 .introduction {
-    width: 90vw;
     margin-left: 12vw;
     background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(Tennis_Ball.png);
     background-size: 500px 500px;
@@ -81,10 +80,12 @@
 
 /* Sports.css */
 .sports-bg {
-    background-color: rgba(245, 245, 220, 0.425);
+    background-color:white;
 }
-
-.sports-header{
+.sports-bg hr {
+    border-top: 1px solid black;
+}
+.sports-header  h1{
     font-family:'Scope One',sans-serif;
     font-size: 3vw;
     margin-left: 12vw;
@@ -93,6 +94,12 @@
     margin-bottom: 15px;
     font-size: 44px;
     line-height: 62px;
+}
+.sports-header p {
+    margin-left: 12vw;
+    width: 70vw;
+    font-weight: 400;
+    line-height: 28px;
 }
 .mvp-container {
     display: flex;
@@ -134,4 +141,66 @@
     margin-right: 10vw;
     width: 37vw;
     height: 25vw;
+} 
+
+.ec-bg {
+    background-color: rgb(245, 229, 7, 0.1);
+}
+.ec-bg hr {
+    border-top: 1px solid red;
+    border-top: 1px solid black;
+}
+
+.ec-header  h1{
+    font-family:'Scope One',sans-serif;
+    font-size: 3vw;
+    margin-left: 12vw;
+    font-weight: 300;
+    color: #1a1b1f;
+    margin-bottom: 15px;
+    font-size: 44px;
+    line-height: 62px;
+}
+.atp-container {
+    display: flex;
+}
+
+.atp-info p {
+    margin-right: 10vw; 
+    width: 42vw;
+    line-height: 28px;
+    margin-top: 6vw;
+    font-size: 18px; 
+    font-family: 'Scope One',sans-serif;
+    color:#686565; 
+    font-weight: 400; 
+    margin-left: 2vw;
+}
+
+.atp-pic img {
+    margin-left: 12vw;
+    width: 37vw;
+    height: 24vw;
+} 
+
+.yt-container {
+    display: flex;
+}
+.yt-info p {
+    margin-left: 12vw;
+    width: 41vw;
+    line-height: 28px;
+    margin-top: 9vw;
+    font-size: 18px; 
+    font-family: 'Scope One',sans-serif;
+    color:#686565; 
+    font-weight: 400;
+    padding-right: 2vw; 
+}
+
+.yt-img img {
+    width: 39.5vw;
+    height: 27vw;
+    margin-right: 10vw;
+   
 } 

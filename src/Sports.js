@@ -16,6 +16,12 @@ function Sports() {
         </div> */}
         <div className="sports-header">
             <h1> Sports </h1>
+            <p> I have been competing in various different sports since over a decade now, I have experienced
+                the victories, the losses, coming back from brink of losses and I believe these things have 
+                shaped me to be the person I am today - humble, a never quit attitude, and a perseverer. <br />
+                In my last year of high-school I was honored for my commmitment towards the instituition.
+                <br /><br />
+            </p>
         </div>
         <div className="mvp-container">
             <div className="mvp-pic">
@@ -26,7 +32,7 @@ function Sports() {
                     the Head of Sports Department for my achievements in the Tennis field.</p>
             </div>
         </div>
-        <br /><br /><br />
+        <br /><hr /><br />
         <div className="soty-container">
             <div className="soty-info">
                 <p> Felicitated by the Dr. Bart De Groof, Ambassador of Belgium in Doha, as the Sportsperson of the Year 
