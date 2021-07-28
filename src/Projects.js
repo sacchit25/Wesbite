@@ -6,8 +6,19 @@ function Projects(){
     <div className="project-container">
         <div className="project-info">
         <h1> Projects </h1>
+        </div>
+        <div class="rmi">
+            <h1 class="rmi-header"> Rate My Internships </h1>
+            <div class="flex-container">
+            <h1 class="rmi-purpose"> Puporse</h1>
+            <h1 class="rmi-role"> Role</h1>
+            <h1 class="rmi-motvation"> Motivation</h1>
+            <h1 class="rmi-skills"> Skills </h1>
+            </div>
+            </div>   
+        {/* </div> */}
     
-        <a href="https://github.com/Greatroot/InternshipReview"> Rate My Internships </a> <br />
+        {/* <a href="https://github.com/Greatroot/InternshipReview"> Rate My Internships </a> <br />
         <p> Finding internships in the STEM field especially Computer Science is a very common 
             struggle among students. Driven by this, me and a group of other students are building a 
             project for the same to ease the internship process as we believe that being an intern is 
@@ -25,8 +36,10 @@ function Projects(){
             to come up with an idea of overcoming this with the use of technology. This project can help people in 
             finding new connections with similar interests. The algorithm outputs possible people you could meet by 
             comparing different aspects like courses taken, favorite cuisine/hobby/music genre.
-        </p>
-    </div>
+        </p> */}
+        {/* <div class="project-bg">
+            <img src="project.png" alt ="project" />
+        </div> */}
     </div>
     )
     
